@@ -1,0 +1,243 @@
+body{
+    /*  */
+    background: linear-gradient(rgb(255, 0, 255),rgb(83, 83, 236));
+    height: 100vh;
+    width: 100vw;
+}
+form{
+    margin-left: 30%;
+    /* margin-top: 200px; */
+    height:700px;
+    width: 600px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 20px 20px 60px white;
+}
+.ImgEye{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 500px;
+    
+}
+.ImgEye img{
+    height: 20px;
+    width: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.username{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.username input{
+    height: 70px;
+    width: 500px;
+    border: none;
+    margin-top: 20px;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgb(231, 235, 238);
+    font-size: 30px;
+    color: rgb(241, 136, 0);    /* border: 2px solid rgb(226, 219, 219); */
+}
+.username i{
+    margin-top: 25px;
+    font-size: 29px;
+    padding: 20px;
+}
+.password{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.password input{
+    font-size: 30px;
+}
+#errors{
+    margin-top: 20px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 900;
+    color: red;
+    margin-left: 20px;
+}
+.ImgEye input{
+    height: 70px;
+    width:100%;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+}
+.password i{
+    margin-top: 45px;
+    font-size: 30px;
+    padding: 20px;
+}
+p{
+    margin-right:19px ;
+    text-align: end;
+    font-size: 17px;
+}
+.submit input{
+    height: 60px;
+    font-size: 25px;
+    color: white;
+    width: 500px;
+    margin-left: 50px;
+    border: none;
+    box-shadow: 2px 2px 1px rgb(205, 193, 193);
+    margin-top: 20px;
+    border-radius: 10PX;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(to right,rgb(136, 136, 235),rgb(41, 41, 228),rgb(255, 0, 255));
+}
+#up{
+    text-align: center;
+    font-weight:400;
+}
+.icons{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+}
+.icons .fa-facebook{
+    color: blue;
+    padding: 20px;
+}
+.icons .fa-google{
+    color: red;
+    padding: 20px;  
+}
+
+
+
+ 
+@media (max-width:1400px){
+    form{
+        margin-left: 19%;
+        /* margin-top: 200px; */
+        height:1400px;
+        width: 700px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 20px 20px 60px white;
+    }
+    .ImgEye{
+        display: flex;
+        align-items: center;
+        height: 50px;
+        width: 500px;
+        
+    }
+    .ImgEye img{
+        height: 40px;
+        margin-top: 160px;
+        width: 80px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    
+    h1{
+        text-align: center;
+        font-size: 60px;
+    }
+    .username{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .username input{
+        height: 100px;
+        width: 500px;
+        border: none;
+        margin-top: 50px;
+        outline: none;
+        border-radius: 10px;
+        background-color: rgb(231, 235, 238);
+        font-size: 30px;
+        color: rgb(241, 136, 0);    /* border: 2px solid rgb(226, 219, 219); */
+    }
+    .username i{
+        margin-top: 25px;
+        font-size: 40px;
+        padding: 30px;
+    }
+    .password{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .password input{
+        font-size: 40px;
+        background-color:rgb(243, 238, 238);
+        border-radius: 20px;
+    }
+    #errors{
+        margin-top: 140px;
+        text-align: left;
+        font-size: 30px;
+        font-weight: 900;
+        color: yellow;
+        background-color: black;
+        margin-left: 20px;
+        border-radius: 10px;
+        text-align: center;
+        padding: 10px;
+    }
+    .ImgEye input{
+        height: 100px;
+        width:100%;
+        outline: none;
+        border: none;
+        margin-top: 160px;
+    }
+    .password i{
+        margin-top: 160px;
+        font-size: 50px;
+        padding: 20px;
+    }
+    p{
+        margin-right:19px ;
+        text-align: end;
+        font-size: 37px;
+    }
+    .submit input{
+        height: 100px;
+        font-size: 55px;
+        color: white;
+        width: 500px;
+        margin-left: 100px;
+        border: none;
+        box-shadow: 2px 2px 1px rgb(205, 193, 193);
+        margin-top: 20px;
+        border-radius: 10PX;
+        outline: none;
+        cursor: pointer;
+        background: linear-gradient(to right,rgb(136, 136, 235),rgb(41, 41, 228),rgb(255, 0, 255));
+    }
+    #up{
+        text-align: center;
+        font-weight:400;
+    }
+    .icons{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 90px;
+    }
+    .icons .fa-facebook{
+        color: blue;
+        padding: 20px;
+    }
+    .icons .fa-google{
+        color: red;
+        padding: 20px;  
+    }
+}
